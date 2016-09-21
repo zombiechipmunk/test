@@ -198,6 +198,7 @@
 					11BCAFEC1D53AFF9005255E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					11BCB0001D53AFF9005255E9 = {
 						CreatedOnToolsVersion = 7.3.1;

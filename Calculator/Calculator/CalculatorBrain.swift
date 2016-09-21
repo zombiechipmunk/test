@@ -22,12 +22,12 @@ class CalculatorBrain
 	}
 	
 	var operations: Dictionary<String,Operation> = [
-		"∏" : Operation.Constant(M_PI),
-		"e" : Operation.Constant(M_E),
-		"√" : Operation.UnaryOperation(sqrt),
-		"cos": Operation.UnaryOperation(cos),
-		"×": Operation.BinaryOperation(multiply),
-		"=" : Operation.Equals
+		"π"		: Operation.Constant(M_PI),
+		"e"		: Operation.Constant(M_E),
+		"√"		: Operation.UnaryOperation(sqrt),
+		"cos"	: Operation.UnaryOperation(cos),
+		"×"		: Operation.BinaryOperation(multiply),
+		"="		: Operation.Equals
  ]
 	enum Operation {
 		case Constant(Double)
